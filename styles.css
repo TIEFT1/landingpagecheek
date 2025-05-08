@@ -83,7 +83,7 @@ nav {
     left: 0;
     width: 300%;
     height: 100%;
-    background-image: url('images/FOTO-DAS-CAPAS-2024.jpg');
+    background-image: url('https://raw.githubusercontent.com/TIEFT1/landingpagecheek/refs/heads/main/FOTO-DAS-CAPAS-2024.jpg');
     background-size: 33.33% auto;
     background-repeat: repeat-x;
     opacity: 0.2;
@@ -124,6 +124,49 @@ nav {
     color: var(--light-gray);
     margin-bottom: 2rem;
 }
+
+/* What You Doing Section */
+.what-you-doing-container {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.what-you-doing {
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-weight: 375;
+    font-size: 4rem;
+    letter-spacing: 9px;
+    color: rgba(255, 255, 255, 0.2);
+    transition: color 0.3s ease;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+}
+
+.what-you-doing:hover {
+    color: #ffffff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .what-you-doing {
+        font-size: 2.5rem;
+        padding: 5px 0;
+    }
+    .what-you-doing-container {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .what-you-doing {
+        font-size: 2rem;
+    }
+}
+
 
 /* Estatísticas */
 .social-stats {
@@ -270,6 +313,47 @@ nav {
     background: #FF0000;
     color: white;
 }
+
+/* Spotify Section Styles */
+.spotify-section {
+    padding: 80px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.spotify-playlist {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.spotify-cta {
+    text-align: center;
+}
+
+.spotify-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #1DB954;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.spotify-button i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.spotify-button:hover {
+    background-color: #1ed760;
+    transform: translateY(-2px);
+}
+
 
 .spotify {
     border-color: rgba(30, 215, 96, 0.3);
