@@ -280,10 +280,10 @@ nav {
 }
 
 .beatstars {
-    border-color: rgba(0, 210, 255, 0.3);
+    border-color: rgba(255, 1, 1, 0.3);
 }
 .beatstars .platform-icon {
-    background: #00D2FF;
+    background: #ff0202;
     color: white;
 }
 
